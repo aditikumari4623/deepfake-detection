@@ -1,0 +1,329 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #020202;
+    color: #333333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* Header Styles */
+  .header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header .logo h1 {
+    font-size: 1.8rem;
+  }
+  
+  .header .nav-menu ul {
+    list-style: none;
+  }
+  
+  .header .nav-menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .header .nav-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .header .nav-menu ul li a:hover {
+    color: #f4f4f4;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero .cta-btn, .hero .secondary-btn {
+    padding: 12px 24px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .hero .cta-btn:hover, .hero .secondary-btn:hover {
+    background: #9f8b8b;
+  }
+  
+  /* Features Section */
+  .features {
+    background: #fff;
+    padding: 60px 0;
+  }
+  
+  .features h3 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex-basis: 30%;
+    text-align: center;
+    padding: 20px;
+    background: #dad1efe3;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .card h4 {
+    margin-top: 10px;
+  }
+  
+  .card p {
+    margin-top: 10px;
+  }
+  
+  .card i {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  /* How It Works Section */
+  .how-it-works {
+    background: #cfb0b0;
+    padding: 60px 0;
+  }
+  
+  .how-it-works h3 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .step {
+    flex-basis: 30%;
+    text-align: center;
+  }
+  
+  .step h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 1rem;
+  }
+  
+  /* Trust and Security Section */
+  .trust-security {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .trust-security h3 {
+    margin-bottom: 20px;
+  }
+  
+  .trust-security p {
+    font-size: 1.1rem;
+    width: 70%;
+    margin: auto;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background: #fff;
+    padding: 60px 0;
+  }
+  
+  .testimonials h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial h4 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #555555;
+  }
+  
+  /* About Us Section */
+.aboutus {
+  background: #f5d8d8;
+  padding: 50px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #ebc0c0;
+}
+
+.aboutus h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.aboutus p {
+  font-size: 1.1rem;
+  width: 70%;
+  margin: auto;
+  line-height: 1.5;
+  text-align: justify;
+}
+  /* FAQ Section */
+  .faq {
+    background: #bdb1c9;
+    padding: 60px 0;
+  }
+  
+  .faq h3 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-item h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .faq-item p {
+    font-size: 1rem;
+    list-style: circle; /* Sets the bullet style to discs */
+    margin-left: 3px; /* Adjusts the indent for bullet points */
+  }
+  
+  /* Footer Section */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  footer .footer-logo h1 {
+    font-size: 1.8rem;
+  }
+  
+  footer .footer-links {
+    list-style: none;
+  }
+  
+  footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  footer .footer-links a:hover {
+    color: #ccc;
+  }
+  
+  footer .footer-info p {
+    font-size: 0.9rem;
+  }
+  
+  footer .footer-info a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer .footer-info a:hover {
+    color: #ccc;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .feature-cards, .steps {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card, .step {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .header .nav-menu ul {
+      display: none;
+    }
+  
+    .header .nav-menu.active ul {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 100%;
+      background: #333;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .header .nav-menu ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .hero h2 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  }
+  
